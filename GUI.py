@@ -130,11 +130,11 @@ class MainWindow(QMainWindow, ColorPalette):
 
         ########## User input variable label and text fields ########## 
         self.ip_address_label = QLabel("Enfield IP Address:", self.main_page)
-        self.ip_address_input = QLineEdit('192.168.101.219', self.main_page)    # default IP address for Alpha 1 (soon to be Beta 1...)
+        self.ip_address_input = QLineEdit('000.000.000.000', self.main_page)    # default IP address for Alpha 1 (soon to be Beta 1...)
         self.ip_address_input.setStyleSheet(f"background-color: {self.palette.field_color}; border: 1px solid {self.border_color}; border-radius: 3px;")
 
         self.password_label = QLabel("VNC Password:", self.main_page)
-        self.password_input = QLineEdit('1234', self.main_page)                 # default password for Alpha/Beta 1
+        self.password_input = QLineEdit('0000', self.main_page)                 # default password for Alpha/Beta 1
         self.password_input.setStyleSheet(f"background-color: {self.palette.field_color}; border: 1px solid {self.border_color}; border-radius: 3px;")
         self.password_input.setEchoMode(QLineEdit.Password)     # the default will be 1234, but will appear as ****
 
