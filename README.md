@@ -1,5 +1,8 @@
 # README #
 
+Example code adapted from my work at Preciosn NanoSystems, now a subsidiary of Cytiva, to automate test procedures on the NanoAssembler Commercial Formulation System. Some files have been removed.
+NanoAssembler Website: https://www.precisionnanosystems.com/platform-technologies/product-comparison/nanoassemblr-commercial-formulation-system
+
 Python scripts that navigate the HMI remotely either via the HMI website or via the SmartClient app to automate simple procedures.
 
 * The idea of this repo came when running the Frame 1 testing on Enfield.  In general Frame 1 testing is:
