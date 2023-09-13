@@ -13,7 +13,7 @@ Python scripts that navigate the HMI remotely either via the HMI website or via 
 * When doing a frame 1 test you end up running many recipes meaning the same set up button clicks over and over.
 * This code is intended to automate that, so the tester does not need to stand in front of the enfield all day when running the tests.
 * The code acts on an active window that is showing the HMI screens.  (It does not act on the HMI screen directly)
-	* The window to show the HMI screen is don through a tool from Siemens called the SmartClient.
+	* The window to show the HMI screen is done through a tool from Siemens called the SmartClient.
 
 ### What does the repository contain? ###
 
